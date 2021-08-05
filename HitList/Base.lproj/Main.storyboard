@@ -33,7 +33,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MEa-aE-ad5" secondAttribute="bottom" id="uMh-X4-qyK"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="OQt-ii-hOe">
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="always" id="OQt-ii-hOe">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="YEk-hJ-O20">
                             <connections>
                                 <action selector="addName:" destination="BYZ-38-t0r" id="qFw-mi-b0m"/>
@@ -56,6 +56,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="5In-Re-5Qd">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

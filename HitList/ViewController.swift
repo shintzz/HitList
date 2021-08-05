@@ -85,6 +85,8 @@ extension ViewController:UITableViewDataSource{
         let person = people[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         cell.textLabel?.text = person.value(forKey: "name") as? String
+        cell.textLabel?.textColor = UIColor.white
+        cell.contentView.backgroundColor = UIColor.red
         return cell
     }
 }
